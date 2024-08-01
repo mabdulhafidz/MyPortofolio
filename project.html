@@ -15,16 +15,13 @@
   </head>
   <body>
     <nav id="desktop-nav">
-        
-            <h1 class="logo nav-links">
-                <a href="/index.html">
-                    M Abdul Hafidz
-                </a>
-            </h1>
+      <h1 class="logo nav-links">
+        <a href="/"> M Abdul Hafidz </a>
+      </h1>
       <div>
         <ul class="nav-links">
           <li><a href="/about.html">About</a></li>
-          <li><a href="/experience.html">Experience</a></li>
+          <li><a href="/experience.html">Experince</a></li>
           <li><a href="/project.html">Projects</a></li>
           <li><a href="/contact.html">Contact</a></li>
         </ul>
@@ -46,44 +43,17 @@
         </div>
       </div>
     </nav>
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/circle.png" alt="M Abdul Hafidz" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">M Abdul Hafidz</h1>
-        <p class="section__text__p2">Fullstack Developer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="window.open('./assets/cv.pdf')"
-          >
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+    <section id="project" class="container-project">
+        <div class="project-card" onclick="window.location.href='https://example.com/project1'">
+          <img src="./assets/coffeefidz.png" alt="Project 1" class="project-image" />
+          <div class="project-info">
+            <h3 class="project-title">Cashier Coffee</h3>
+            <p class="project-description">Laravel</p>
+          </div>
         </div>
-        <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My Linkedln Profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/m-abdul-hafidz-0095682a7/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github Profile"
-            class="icon"
-            onclick="location.href='https://www.github.com/mabdulhafidz'"
-          />
-        </div>
-      </div>
     </section>
-
-    
-
+    <h3 class="coming-soon-project">Coming Soon for Another Project</h3>
+      
     <script src="script.js"></script>
   </body>
 </html>

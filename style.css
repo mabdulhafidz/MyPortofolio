@@ -360,5 +360,115 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -5;
 }
+
+/* about */
+#about {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify; 
+  }
+
+  /* experience */
+#experience {
+    padding: 2rem;
+    background-color: #f9f9f9; 
+  }
+
+  .container-experience {
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .experience-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .experience-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .experience-item p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+  
+  .experience-item strong {
+    font-weight: bold;
+  }
+
+
+  /* project */
+  
+  .container-project {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-info {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
+  .project-title {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .project-description {
+    color: #666;
+  }
+
+  .coming-soon-project {
+    text-align: center;
+    margin-top: 50px;
+  }
   
   
