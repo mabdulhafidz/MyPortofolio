@@ -15,11 +15,12 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <h1 class="logo nav-links">
+      <h1 class="logo">
         <a href="/"> M Abdul Hafidz </a>
       </h1>
       <div>
         <ul class="nav-links">
+          <li><a href="/">Home</a></li>
           <li><a href="/about.html">About</a></li>
           <li><a href="/experience.html">Experince</a></li>
           <li><a href="/project.html">Projects</a></li>
@@ -36,6 +37,7 @@
           <span></span>
         </div>
         <div class="menu-links">
+          <li><a href="/" onclick="toggleMenu()">Home</a></li>
           <li><a href="/about.html" onclick="toggleMenu()">About</a></li>
           <li><a href="/experience.html" onclick="toggleMenu()">Experince</a></li>
           <li><a href="/project.html" onclick="toggleMenu()">Projects</a></li>
@@ -49,6 +51,13 @@
           <div class="project-info">
             <h3 class="project-title">Cashier Coffee</h3>
             <p class="project-description">Laravel</p>
+          </div>
+        </div>
+        <div class="project-card" onclick="window.location.href='https://example.com/project1'">
+          <img src="./assets/binari.jpeg" alt="Project 2" class="project-image" />
+          <div class="project-info">
+            <h3 class="project-title">Binari Inkubator</h3>
+            <p class="project-description">React Js</p>
           </div>
         </div>
     </section>
